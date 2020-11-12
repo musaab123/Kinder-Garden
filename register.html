@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Register</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font awesome -->
+		 <link rel="stylesheet" href="assets/css/all.min.css">
+		 <!-- Bootstrap CSS -->
+		 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		 <link rel="stylesheet" href="assets/css/style.css">
+		 <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+      <section class="container" id="register">
+        <h4 class="text-center">Register</h4>  
+        <div class="card bt p-4 mt-4 shadow">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="John Doe *" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="example@example.com *" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" aria-describedby="passwordHelp" placeholder="Password *" required>
+                    <small id="pas7swordHelp" class="text-muted">Must be at least 8 characters</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="c-password">Confirm Password</label>
+                    <input type="password" name="c-password" id="c-password" class="form-control" aria-describedby="passwordHelp" placeholder="Confirm Password *" required>
+                    <small id="pas7swordHelp" class="text-muted">Must match the above field</small>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+
+                <div class="d-flex justify-content-between flex-wrap mt-4">
+                    <a href="/login.html" >All ready have an account ? Login now</a>
+                </div>
+            </form>
+        </div>
+      </section>
+    
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/main.js"></script>
+  </body>
+</html>
